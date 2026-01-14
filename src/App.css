@@ -14,23 +14,3 @@
 li {
   list-style: none;
 }
-
-.opcoes {
-  align-items: center;
-  display: flex;
-  gap: 10px;
-}
-
-.opcao {
-  font-size: 18px;
-  font-weight: bold;
-  min-width: 120px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.icons {
-  align-items: center;
-  display: flex;
-  gap: 10px;
-}
