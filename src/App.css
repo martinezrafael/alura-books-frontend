@@ -6,4 +6,22 @@
 
 .App-header {
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.opcoes {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.opcao {
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  min-width: 120px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
