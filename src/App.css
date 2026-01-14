@@ -1,0 +1,9 @@
+.App {
+  background-image: linear-gradient(90deg, #002f52 35%, #326589);
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-header {
+  background: #fff;
+}
