@@ -18,7 +18,11 @@ function App() {
         </ul>
         <ul className="icons">
           {icones.map((icone) => {
-            return <img src={icone} alt="Icone" />;
+            return (
+              <li>
+                <img src={icone} alt="Icone" />
+              </li>
+            );
           })}
         </ul>
       </header>
