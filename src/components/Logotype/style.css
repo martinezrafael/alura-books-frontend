@@ -1,0 +1,9 @@
+.logotype {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+}
+
+.logotype__image {
+  margin-right: 10px;
+}

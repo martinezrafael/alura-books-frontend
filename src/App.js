@@ -1,9 +1,12 @@
 import "./App.css";
+import Logotype from "./components/Logotype";
 
 function App() {
   return (
-    <div>
-      <header></header>
+    <div className="App">
+      <header className="App-header">
+        <Logotype />
+      </header>
     </div>
   );
 }
