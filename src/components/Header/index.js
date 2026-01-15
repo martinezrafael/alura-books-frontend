@@ -1,7 +1,6 @@
 import Logotype from "../Logotype";
 import OpcoesHeader from "../OpcoesHeader";
 import IconesHeader from "../IconesHeader";
-import "./style.css";
 
 import styled from "styled-components";
 
