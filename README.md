@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Alura Books Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto frontend desenvolvido com React para a plataforma Alura Books. Ele oferece uma interface de usuário interativa e responsiva para explorar e interagir com livros, apresentando funcionalidades como listagem de livros, pesquisa e recomendações.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+*   **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+*   **Styled Components:** Biblioteca para estilização de componentes React utilizando CSS-in-JS.
+*   **JavaScript:** Linguagem de programação principal.
+*   **HTML5:** Estrutura da aplicação.
+*   **CSS3:** Estilização base.
+
+## Primeiros Passos
+
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em sua máquina.
+
+*   [Node.js](https://nodejs.org/en/download/) (inclui npm)
+
+### Instalação
+
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/alura-books-frontend.git
+    ```
+    (Altere `https://github.com/seu-usuario/alura-books-frontend.git` para o URL real do seu repositório, se aplicável)
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd alura-books-frontend
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+### Executando a Aplicação
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+npm start
+```
+
+A aplicação será aberta automaticamente em seu navegador padrão em `http://localhost:3000`.
+
+## Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa o aplicativo em modo de desenvolvimento.\nAbra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página será recarregada se você fizer edições.\nVocê também verá quaisquer erros de lint no console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de testes no modo de observação interativo.\nConsulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila o aplicativo para produção na pasta `build`.\nEle agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A construção é minificada e os nomes dos arquivos incluem hashes.\nSeu aplicativo está pronto para ser implantado!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: esta é uma operação unidirecional. Depois de `eject`, você não pode voltar!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com a ferramenta de construção e as escolhas de configuração, pode "ejetar" a qualquer momento. Este comando removerá a dependência única de construção do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc.) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Não há como saber se isso funcionará, mas caso queira experimentar, saiba que é por sua conta e risco.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Você não precisa usar `eject`. O conjunto de recursos selecionado é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para isso.
